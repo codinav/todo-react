@@ -1,0 +1,59 @@
+/* Reset some default browser styles */
+body, h1, h2, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a background color to the entire app */
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  /* Style the header with a background color and padding */
+  header {
+    background-color: #0074cc;
+    color: white;
+    padding: 20px;
+  }
+  
+  /* Style the main content area with a container */
+  .main-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  /* Style the todo list container */
+  .todo-list {
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Style todo items in the list */
+  .todo-item {
+    list-style: none;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Style the "Add Todo" button */
+  .add-todo-button {
+    background-color: #0074cc;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .add-todo-button:hover {
+    background-color: #005aa3;
+  }
+  
